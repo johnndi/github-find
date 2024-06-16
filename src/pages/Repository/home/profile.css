@@ -1,0 +1,23 @@
+.contain {
+  width: 370px;
+  overflow-y: scroll;
+  align-items: center;
+}
+.gitimage {
+  width: 200px;
+  border-radius: 10px;
+}
+.links {
+  background-color: #070f2c;
+  color: white;
+  border-radius: 10px;
+  height: 2rem;
+}
+.links a {
+  color: white;
+  text-decoration: none;
+  padding: 2rem 3rem;
+}
+.other {
+  padding: 1rem;
+}

@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-color: rgba(4, 4, 34, 0.959);
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  color: white;
+}
+.link a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search {
+  margin: 1rem;
+}

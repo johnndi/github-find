@@ -1,0 +1,27 @@
+.gititemrepo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  row-gap: 1rem;
+}
+.repoitem {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: #f1f1e7;
+  width: 200px;
+}
+.repotitle {
+  text-align: center;
+  padding-bottom: 5rem;
+}
+.rate {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #fff7d6;
+  padding: 0.5rem;
+}
+.sectitle {
+  padding: 0.5rem 25rem;
+}

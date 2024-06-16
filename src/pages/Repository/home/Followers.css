@@ -1,0 +1,21 @@
+.gititemfollow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  row-gap: 1rem;
+  margin: 0.5rem 0.5rem;
+}
+.repoitemfollowers {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
+  rotate: 1rem;
+}
+.heads {
+  padding: 0.5rem 25rem;
+}
+.repoimage {
+  width: 150px;
+  border-radius: 10px;
+}
