@@ -19,3 +19,12 @@
   width: 150px;
   border-radius: 10px;
 }
+.followlink a{
+  text-decoration:none;
+  colour:black;
+  background-colour:blue;
+  
+}
+.name{
+  background-color:blue;
+}
