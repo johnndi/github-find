@@ -5,7 +5,7 @@ import "./Followers.css";
 function Followers() {
   const [follower, setfollower] = useState([]);
   const Username = usegitnameStore((state) => state.Username);
-  console.log(`follower username ${Username}`);
+ 
 
   if (Username != null) {
     (async () => {
@@ -32,7 +32,7 @@ function Followers() {
         {follower.map((follow) => (
           <div className="repoitemfollowers" key={follow.id}>
             <img src={follow.avatar_url} className="repoimage" />            
-            <button className="name" onClick={Username:"follow.login"}>{follow.login}</button>
+            <button className="name" onClick={Username:`follow.login`}>{follow.login}</button>
             <p className="followlink">
               <a href={follow.html_url}>view on github</a>
             </p>
