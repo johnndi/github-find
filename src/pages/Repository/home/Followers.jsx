@@ -33,7 +33,7 @@ function Followers() {
           <div className="repoitemfollowers" key={follow.id}>
             <img src={follow.avatar_url} className="repoimage" />            <h3>{follow.login}</h3>
             <p>
-              <a href={follow.html_url}></a>
+              <a href={follow.html_url}>view</a>
             </p>
           </div>
         ))}
