@@ -32,7 +32,7 @@ function Followers() {
         {follower.map((follow) => (
           <div className="repoitemfollowers" key={follow.id}>
             <img src={follow.avatar_url} className="repoimage" />            
-            <button className="name" onClick{Username:"follow.login"}>{follow.login}/>
+            <button className="name" onClick={Username:"follow.login"}>{follow.login}</button>
             <p className="followlink">
               <a href={follow.html_url}>view on github</a>
             </p>
