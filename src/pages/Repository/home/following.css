@@ -6,6 +6,15 @@
   row-gap: 1rem;
   gap: 1rem;
 }
+.repoitemfollowing {
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
+  rotate: 1rem;
+}
 .followinglink a{
   text-decoration:none;
   colour:black;
