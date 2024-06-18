@@ -24,10 +24,13 @@ function Following() {
       {following.map((following) => (
         <div className="repoitemfollowing" key={following.id}>
           <img src={following.avatar_url} className="repoimage" />
-          <button className="name">{following.login}</button>
+          <div className="ftext">
+           <button className="name">{following.login}</button>
           <p className="followinglink">
             <a href={following.html_url}>view on github</a>
           </p>
+          </div>
+         
         </div>
       ))}
     </div>
