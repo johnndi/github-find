@@ -1,6 +1,17 @@
 .gititemfollowing {
   display: flex;
   flex-wrap: wrap;
+  justify-content:center;
+  align-items:center;
   row-gap: 1rem;
   gap: 1rem;
+}
+.followinglink a{
+  text-decoration:none;
+  colour:black;
+  background-colour: #fff7d6;
+  
+}
+.name{
+  background-color: #fff7d6;
 }
