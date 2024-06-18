@@ -16,7 +16,7 @@ function Followers() {
         const final4 = await answer4.json();
         setfollower(final4);
       } catch (error) {
-        setfollower("there was an error");
+        console.log("there was an error");
       }
     })();
   } else {
@@ -31,8 +31,7 @@ function Followers() {
       <div className="gititemfollow">
         {follower.map((follow) => (
           <div className="repoitemfollowers" key={follow.id}>
-            <img src={follow.avatar_url} className="repoimage" />
-            <h3>{follow.login}</h3>
+            <img src={follow.avatar_url} className="repoimage" />            <h3>{follow.login}</h3>
             <p>
               <a href={follow.html_url}></a>
             </p>
