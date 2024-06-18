@@ -26,7 +26,7 @@ function Following() {
           <img src={following.avatar_url} className="repoimage" />
           <h3>{following.login}</h3>
           <p>
-            <a href={following.html_url}></a>
+            <a href={following.html_url}>view</a>
           </p>
         </div>
       ))}
